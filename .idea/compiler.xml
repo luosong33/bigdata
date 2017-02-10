@@ -22,12 +22,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="bigdata-storm" />
         <module name="hbase" />
         <module name="spark-sql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bigdata" target="1.5" />
+      <module name="bigdata-storm" target="1.5" />
       <module name="hbase" target="1.5" />
       <module name="spark-sql" target="1.5" />
     </bytecodeTargetLevel>
