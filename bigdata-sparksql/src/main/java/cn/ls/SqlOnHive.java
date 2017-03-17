@@ -1,3 +1,4 @@
+/*
 package cn.ls;
 
 import java.util.ArrayList;
@@ -18,6 +19,7 @@ import org.apache.spark.sql.hive.api.java.JavaHiveContext;
 
 
 
+*/
 /**
  * 注意：
  * 使用JavaHiveContext时
@@ -25,7 +27,8 @@ import org.apache.spark.sql.hive.api.java.JavaHiveContext;
  * 2:需要增加postgresql或mysql驱动包的依赖
  * 3:需要增加hive-jdbc,hive-exec的依赖
  *
- */
+ *//*
+
 public class SqlOnHive {
     public static void main(String[] args) {
         SparkConf conf = new SparkConf().setAppName("simpledemo").setMaster("local");
@@ -109,3 +112,4 @@ public class SqlOnHive {
         }
     }
 }
+*/

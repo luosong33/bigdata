@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="bigdata-storm" />
+        <module name="bigdata-util" />
         <module name="hbase" />
         <module name="spark-sql" />
       </profile>
@@ -30,6 +31,7 @@
     <bytecodeTargetLevel>
       <module name="bigdata" target="1.5" />
       <module name="bigdata-storm" target="1.5" />
+      <module name="bigdata-util" target="1.5" />
       <module name="hbase" target="1.5" />
       <module name="spark-sql" target="1.5" />
     </bytecodeTargetLevel>

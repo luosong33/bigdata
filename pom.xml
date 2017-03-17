@@ -12,6 +12,7 @@
         <module>bigdata-sparksql</module>
         <module>bigdata-hbase</module>
         <module>bigdata-storm</module>
+        <module>bigdata-util</module>
     </modules>
 
 
